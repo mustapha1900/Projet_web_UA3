@@ -13,7 +13,7 @@ span:hover {
 body { 
         font-family: "Oswald" , Arial ;
          /*ajouter la nouveau uploader depuis googlefont*/
-         background-image: url(gym.jpg);
+         background-image: url(../Images/gym.jpg);
          background-position: center center;
          background-size: cover;
          background-repeat: no-repeat;

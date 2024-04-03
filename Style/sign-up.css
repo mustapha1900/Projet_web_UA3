@@ -60,7 +60,7 @@ header a:hover {
 
   body { 
     font-family: "Oswald" , Arial ; 
-    background-image: url(gym5.jpg);
+    background-image: url(../Images/gym5.jpg);
     background-position: center center;
      background-size: cover;
      background-repeat: no-repeat;
