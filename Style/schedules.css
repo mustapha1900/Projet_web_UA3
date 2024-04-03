@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&family=Protest+Riot&display=swap');
+
+.h2-contact {
+    text-align: center;
+}
+
+span { 
+    color:orange;
+}  
+span:hover {
+    color: black;
+}
+header a {
+    color: antiquewhite;
+    text-decoration: none; 
+}
+
+header a:hover {
+   color: orange;
+}
+
+.content-wrapper {
+    max-width: 800px;
+    margin-left: auto; 
+    margin-right: auto;   
+}
+
+
+    nav>ul>li{
+      list-style: none;
+  }
+  a {
+      
+      margin: 10px;
+  }
+  
+  .logo, nav , nav li {
+      display: inline-block; }
+  
+  nav{
+          margin-left: 165px;
+  }
+  
+  .logo {
+      text-transform: uppercase;
+      font-size: 25px;
+      font-weight: bold;
+      color: antiquewhite;
+      text-decoration: none;
+  }
+  
+  .sign-up-button {
+      background-color:gray;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      color: orange;
+  }
+  footer{  
+    margin-top: 40px;
+    text-align: center;
+    padding-top: 0px;
+    padding-bottom: 20px;
+}
+a {  color: antiquewhite;
+    text-decoration: none;
+}
+.span-footer{
+    color: antiquewhite;
+}
+a:hover{
+    color: orange;
+}
+
+
+h1 {
+    color:antiquewhite;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+td {
+    
+    color: #fff;
+}
+
+
+body{
+   font-family: "Oswald" , Arial ; 
+        background-image: url(gym10.jpg);
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+       font-family: "Oswald" , Arial 
+   
+}
+
+.tableau{
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.span-footer:hover{
+    color: orange;
+}
+.find-us-section{
+    color: antiquewhite;
+}
+.copyright-section{
+   color: antiquewhite;
+}
+
+.ligne1{
+    background-color: gray;
+}

@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&family=Protest+Riot&display=swap');
+
+.h2-contact {
+    text-align: center;
+}
+
+span { 
+    color:orange;
+}  /* pour le colorer la 2eme partie du logo*/
+span:hover {
+    color: black;
+}
+header a {
+    color: antiquewhite;
+    text-decoration: none; 
+}
+
+header a:hover {
+   color: orange;
+}
+.logo {
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: bold;
+    color: antiquewhite;
+    text-decoration: none;
+}
+
+.content-wrapper {
+    max-width: 800px; /* Limite la largeur du texte pour une meilleure lisibilité */
+    margin-left: auto; 
+    margin-right: auto;   
+}
+
+body { 
+        font-family: "Oswald" , Arial ; 
+        background-image: url(gym2.jpg);
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+       
+    }     
+    nav>ul>li{
+      list-style: none;
+  }
+  a {
+      
+      margin: 10px;
+  }
+  
+  .logo, nav , nav li {
+      display: inline-block; }
+  
+  nav{
+          margin-left: 165px;
+  }
+  
+  .logo {
+      text-transform: uppercase;
+      font-size: 25px;
+      font-weight: bold;
+      color: black;
+      text-decoration: none;
+  }
+  
+  .sign-up-button {
+      background-color:rgb(92, 90, 90);
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      color: orange;
+  }
+  footer{  
+    margin-top: 30px;
+    text-align: center;
+    padding-top: 0px;
+    padding-bottom: 20px;
+}
+a {  color: antiquewhite;
+    text-decoration: none;
+}
+.span-footer{
+    color: antiquewhite;
+}
+a:hover{
+    color: orange;
+}
+
+
+h1 {
+    color:black;
+    text-align: center;
+}
+
+body{
+    background-image: url('gym8.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.main-content{
+    text-align: center;
+    height:fit-content;
+    background-color:rgba(240, 240, 240, 0.6);
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top : 50px ;
+
+}
+.find-us-section{
+    color: antiquewhite;
+}
+.copyright-section{
+    color: antiquewhite;
+ }
+ .span-footer:hover{
+    color: orange;
+}
+h1{
+    color: antiquewhite;
+}

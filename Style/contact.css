@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&family=Protest+Riot&display=swap');
+                         
+                       /*code css de la partie Header*/
+header{
+    margin-bottom: 40px; 
+    }
+span { 
+    color:orange;
+} 
+span:hover {
+    color: black;    
+}
+label {
+    display: inline-block;
+    margin-bottom: 10 px;
+     }
+
+header a {
+    color: blanchedalmond;
+    text-decoration: none; 
+}
+
+header a:hover {
+   color: orange;
+}
+
+.content-wrapper {
+    max-width: 800px; 
+    margin-left: auto; 
+    margin-right: auto;   
+}
+nav>ul>li{
+    list-style: none;
+    }
+a   {
+    margin: 10px;
+    }
+
+.logo, nav , nav li {
+    display: inline-block;
+     }
+
+nav{
+        margin-left: 165px;
+    }
+
+.logo  {
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    }
+
+.sign-up-button {
+    background-color:gray;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    color: orange;
+    }
+a:hover{
+        color: orange;
+        }    
+a { 
+        color: blanchedalmond;
+        text-decoration: none;
+        }        
+                           /*code css de la partie main*/
+body { 
+        font-family: "Oswald" , Arial ; 
+        background-image: url(../images/gym7.jpg);
+        background-position: center center;
+         background-size: cover;
+         background-repeat: no-repeat;
+         padding: 0;
+         margin: 0; 
+    }     
+form {
+    max-width: 600px;
+    margin:  auto;
+   background-color:rgba(240, 240, 240, 0.4);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: #f4f4f4;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+    }
+input,
+textarea,
+select {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    }
+
+button {
+    background-color:black;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    }
+
+button:hover {
+    background-color:orange;
+    }
+.address-section,.contact-info{
+    text-align: center;
+    color: antiquewhite;
+    
+}
+.contact-section{
+    text-align: center;
+    padding-top: 40px;
+}
+h3{
+    color: orange ;
+   
+}
+                   /*code css de la partie footer*/
+footer{  
+    text-align: center; 
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: 150px;
+    }
+
+.span-footer{
+    color:blanchedalmond;
+    }
+
+.h2-contact{
+    color: blanchedalmond;
+    text-align: center;
+    }
+
+.find-us-section{
+    color: antiquewhite;
+    }
+.copyright-section{
+   color: antiquewhite;
+    }
+.span-footer:hover{
+    color: orange;
+    }
