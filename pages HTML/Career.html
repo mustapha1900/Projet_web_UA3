@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Career</title>
+    <link rel="stylesheet" href="./style/career.css">
+</head>
+<body>
+    <header>
+        <div class="content-wrapper">
+            <div class="logo"><a href="./index.html">
+                Training<span id="Gym-text-logo">studio</span></a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
+                    <li><a href="./classes.html">Classes</a></li>
+                    <li><a href="./schedules.html">Schedules</a></li>
+                    <li><a href="./about.html">About</a></li>
+                    <li class="sign-up-button"><a href="./Signup.html">Sign up</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <h1> Start your career with us</h1>
+        <div class="container">
+            <form class="application-form">
+                <fieldset class="contact-information">
+                    <legend>Contact Information</legend>
+                    <div class="form-inline">
+                        <div class="input-group">
+                            <label for="fname">First Name </label>
+                            <input type="text" id="fname" name="fname" required>
+                        </div>
+                        <div class="input-group">
+                            <label for="lname">Last Name </label>
+                            <input type="text" id="lname" name="lname" required>
+                        </div>
+                    </div>
+                    <div class="input-group">
+                        <label for="email">Email </label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="input-group">
+                        <label for="tel">Phone </label>
+                        <input type="tel" id="tel" name="tel" required>
+                    </div>
+                </fieldset>
+
+                <fieldset class="position">
+                    <legend>Position</legend>
+                    <div class="input-group">
+                        <label for="position">Position you are applying for </label>
+                        <input type="text" id="position" name="position" required>
+                    </div>
+                    <div>
+                        <label for="experiencejob">Age</label>
+                        <select name="age" id="age" size="5" multiple>
+                            <option value="">How many years experience do you have?</option>
+                            <option value="moins d'un an">1-10months</option>
+                            <option selected value="plus de 5ans ">2-5years</option>
+                            <option value="plus de 10ans ">+9</option>
+                        </select>
+                    </div>
+                    <div class="input-group">
+                        <label for="website">name of your page instagram</label>
+                        <input type="url" id="website" name="website">
+                    </div>
+                    <div class="input-group">
+                        <label for="salary">what Salary would you like to like</label>
+                        <input type="text" id="salary" name="salary">
+                    </div>
+                    <div class="input-group">
+                        <label for="joining">When can you start?</label>
+                        <input type="text" id="joining" name="joining">
+                    </div>
+                </fieldset>
+                <fieldset class="other-details">
+                    <legend>Other Details</legend>
+                    <hr>
+                    <div class="input-group">
+                        <label>Are you willing to relocate?</label>
+                        <div class="form-inline flex">
+                            <input type="radio" id="relocation_yes" name="relocation" value="yes">
+                            <label for="relocation_yes">Yes</label>
+                        </div>
+                        <div class="form-inline flex">
+                            <input type="radio" id="relocation_no" name="relocation" value="no">
+                            <label for="relocation_no">No</label>
+                        </div>
+                    </div>
+                    <div class="input-group">
+                        <label for="last-employer">Last company fitness you worked for?</label>
+                        <input type="text" id="last-employer" name="last-employer" autocomplete="off">
+                    </div>
+                    <div class="input-group">
+                        <label for="address">Write your resume here</label>
+                        <textarea id="address" name="address" rows="5"></textarea>
+                    </div>
+                </fieldset>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+
+    </main>
+    <footer class="footer-section">
+        <div class="content-wrapper">
+            <div class="find-us-section">
+                <p>Explore our project on | <a href="https://github.com/mustapha1900/Projet_UA2_Web.git" target="_blank">GitHub</a>|
+                    <a href="#" target="_blank">Facebook</a>|
+                    <a href="#" target="_blank">Twitter</a>|
+                    <a href="#" target="_blank">Instagram</a>
+                </p>
+            </div>
+            <div class="copyright-section">
+                <p>&copy; 2024 Training Studio Gym. All rights reserved. | Created on March 2024 | Designed by : <span class="span-footer">Mustapha, SalahEddine, Walid, Ismail</span></p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
