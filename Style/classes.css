@@ -34,7 +34,7 @@ header a:hover {
 
 body { 
         font-family: "Oswald" , Arial ; 
-        background-image: url(gym2.jpg);
+        background-image: url('../Images/gym10.jpg');
         background-position: center center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -92,12 +92,6 @@ h1 {
     text-align: center;
 }
 
-body{
-    background-image: url('gym8.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
 
 .main-content{
     text-align: center;

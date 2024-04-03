@@ -1,6 +1,6 @@
                            /*cette page a été crée par Mustapha Toubal Seghir*/
 
-                           @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&family=Protest+Riot&display=swap');
+                         @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&family=Protest+Riot&display=swap');
 
 
                            /*code css de la partie Header*/
@@ -54,7 +54,7 @@ span:hover {
                            /*code css de la partie Main*/
 body { 
         font-family: "Oswald" , Arial ;
-         background-image: url(gym.jpg);
+         background-image: url(../Images/gym.jpg);
          background-position: center center;
          background-size: cover;
          background-repeat: no-repeat;
