@@ -159,3 +159,83 @@ footer{
 .copyright-section{
                color: antiquewhite;
                }
+
+/* adaptation des diffrents taille ecran de l'utilisateur */
+@media screen and (max-width: 576px) {
+        /*  .plants{
+            flex-direction: column;
+            justify-content: center;
+        }
+        .plants>div{
+            width: 90%;
+            margin: 0 auto;
+        }  */
+        .main-content {
+                padding: 20px; /* Ajoute un peu d'espace intérieur pour le contenu */
+            }
+        
+            .section-content {
+                padding: 10px; /* Réduit légèrement l'espacement à l'intérieur de la section principale */
+            }
+        
+            .h1-section-content {
+                font-size: 24px; /* Réduit la taille du titre principal */
+            }
+        
+            .article1, .article2 {
+                margin-bottom: 20px; /* Ajoute un peu d'espace entre les articles */
+            }
+        
+            .h2-article2 {
+                font-size: 18px; /* Réduit la taille du sous-titre */
+            }
+        
+            .testimonial {
+                padding: 10px; /* Réduit l'espacement à l'intérieur de la section des témoignages */
+            }
+        
+            .testimonial article {
+                font-size: 14px; /* Réduit la taille de la police des témoignages */
+            }
+        
+            .offer, .event {
+                margin-bottom: 20px; /* Ajoute un peu d'espace entre les offres et les événements */
+            }
+        
+            .h2-special-offers, .h2-cpcoming-events {
+                font-size: 18px; /* Réduit la taille des titres d'offres spéciales et d'événements à venir */
+            }
+           ul ,li{
+                margin: 0;
+                padding: 0;
+           }
+           nav {
+                margin-left: 200px;
+           }
+           .content-wrapper{
+                display: inline-block;;
+           } 
+           .logo,nav {
+                display: inline-block;
+                vertical-align: middle;
+           }
+           header .content-wrapper {
+                display: flex;
+                align-items: center; /* Pour aligner verticalement les éléments */
+            }
+        }
+        
+
+@media only screen and (max-width: 768px) {
+        
+}
+
+/* Pour les écrans jusqu'à 992px de large */
+@media only screen and (max-width: 992px) {
+        
+}
+
+/* Pour les écrans jusqu'à 1200px de large */
+@media only screen and (max-width: 1200px) {
+      
+}
