@@ -62,16 +62,18 @@ logo.addEventListener("mouseleave", () => {
     const section = document.querySelector('.upcoming-events-section');
     const messageElement = document.createElement('div');
 
-    messageElement.textContent = "Join us for our next event, the Nutrition Seminar, taking place on April 15, 2024. Don't miss this opportunity to learn more about nutrition and discover how it can positively impact your life!'";
-    messageElement.classList.add('message');
-    messageElement.style.fontWeight = 'bold';
-
+   
+  
     // Ajout de l'élément contenant le message à la fin de la section
     section.appendChild(messageElement);
 
    
-    section.addEventListener('mouseover', () => {
+    section.addEventListener('mouseenter', () => {
+        messageElement.textContent = "Join us for our next event, the Nutrition Seminar, taking place on April 25, 2024. Don't miss this opportunity to learn more about nutrition and discover how it can positively impact your life!'";
+        messageElement.classList.add('message');
         messageElement.style.display = 'block';
+        messageElement.style.fontWeight = 'bold';
+        messageElement.style.backgroundColor = 'grey'
     });
     section.addEventListener('mouseleave', () => {
         messageElement.style.display = 'none';
