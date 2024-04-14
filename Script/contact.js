@@ -1,6 +1,18 @@
 document.addEventListener("DOMContentLoaded",()=>{
 
-    // creation Evenement pour le Logo
+    const logo1 = document.querySelector(".logo")
+    logo1.addEventListener('mouseover',() => {
+        logo1.style.transform = "scale(1.2)"; 
+        logo1.style.backgroundColor = "grey";
+        logo1.style.borderRadius = "4px" ;                                     
+    });
+    logo1.addEventListener('mouseleave', () => {
+        logo1.style.transform = "scale(1)"; // Ramène à la taille initiale
+        logo1.style.backgroundColor = ""; // Ramène à la couleur initiale
+    });
+    
+
+
 
     // changement de couleur du formulaire
 const formulaire = document.querySelector("#contactForm")
