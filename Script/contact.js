@@ -19,7 +19,7 @@ const formulaire = document.querySelector("#contactForm")
 
 formulaire.addEventListener ("mouseover",() => {
     
-    formulaire.style.backgroundColor = "orange"    
+    formulaire.style.backgroundColor = "grey"    
 })
 
 formulaire.addEventListener ("mouseleave",() => {
@@ -60,13 +60,13 @@ const form = document.getElementById('contactForm');
         // Regex pour valider le numéro de téléphone (10 chiffres sans caractères spéciaux)
         const phoneRegex = /^\d{10}$/;
 
-        // Valider les données du formulaire
+        // Validation les données du formulaire
         if (name.trim() === '' || !emailRegex.test(email) || phone.trim() === '' || !phoneRegex.test(phone) || message.trim() === '') {
             alert('Please fill in all the fields correctly.');
             return;
         }
 
-        // Envoyer les données au serveur ou effectuer d'autres actions nécessaires
+        // Envoyer les données au serveur 
         console.log('Name:', name);
         console.log('Email:', email);
         console.log('Gender:', gender);
