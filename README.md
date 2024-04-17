@@ -52,14 +52,14 @@ Ce projet est structuré de manière à rendre la navigation et le développemen
 Des captures d'écran des différentes pages du site sont fournies pour vous donner un aperçu visuel de l'apparence de notre site.
 
 
-![Page d'Accueil](Screenshot/index.png)
-![Page contact](Screenshot/contact2.png)
-![Page sign-up](Screenshot/sign%20up.png)
-![Page Membership](Screenshot/membership.png)
-![Page Classes](Screenshot/classes.png)
-![Page schedules](Screenshot/Schedules.png)
-![Page About-us](Screenshot/About%20us.png)
-![Page Career](Screenshot/career.png)
+![Page d'Accueil](./ScreenShot/index.png)
+![Page contact](./ScreenShot/contact2.png)
+![Page sign-up](./ScreenShot/sign%20up.png)
+![Page Membership](./ScreenShot/membership.png)
+![Page Classes](./ScreenShot/classes.png)
+![Page schedules](./ScreenShot/Schedules.png)
+![Page About-us](./ScreenShot/About%20us.png)
+![Page Career](./ScreenShot/career.png)
 
 ## Auteurs du contenu du projet
 
