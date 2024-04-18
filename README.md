@@ -78,14 +78,14 @@ Des captures d'écran des différentes pages du site sont fournies pour vous don
  - creation du repository sur github
 
  2/Salaheddine Ziani
- - creation de la page Schedules+css
- - creation de la page classes+css
+ - creation de la page Schedules+css + JS
+ - creation de la page classes+css + JS
  
 
   3/walid naim
- - creation de la page Sign-up +css
- - creation de la page membership +css
+ - creation de la page Sign-up +css + Js
+ - creation de la page membership +css + Js
 
   4/ Ismail hussain ali
-- creation de la page about + css
-- creation de la page career + css
+- creation de la page about + css + Js
+- creation de la page career + css + Js
