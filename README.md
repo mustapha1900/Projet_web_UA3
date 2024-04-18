@@ -46,6 +46,11 @@ Ce projet est structuré de manière à rendre la navigation et le développemen
 - `contact.js`: Code Js pour la Page Contact .
 - `Membership.js`: Code Js pour la Page Contact .
 - `Sign-up.js`: Code Js pour la Page Contact .
+- `career.js`: Code Js pour la Page career .
+- `Classes.js`: Code Js pour la Page Classes .
+- `Schedules.js`: Code Js pour la Page Schedules .
+
+
 
 ## Captures d'Écran
 
@@ -60,13 +65,14 @@ Des captures d'écran des différentes pages du site sont fournies pour vous don
 ![Page schedules](./ScreenShot/Schedules.png)
 ![Page About-us](./ScreenShot/About%20us.png)
 ![Page Career](./ScreenShot/career.png)
+![Page Animation](./ScreenShot/Animation.png)
 
 ## Auteurs du contenu du projet
 
 1/ Mustapha Toubal Seghir
- - creation de la page Home Html+ Css
- - creation de la page contact Html+ css
- - creation du  Header et footer de tout le site (HTML+CSS)
+ - creation de la page Home Html+ Css+Js
+ - creation de la page contact Html+ css+Js
+ - creation du  Header et footer de tout le site (HTML+CSS+Js)
  - design globale du site (couleurs, choix des images, theme)
  - creation de la page et le contenu du readme
  - creation du repository sur github
@@ -74,6 +80,7 @@ Des captures d'écran des différentes pages du site sont fournies pour vous don
  2/Salaheddine Ziani
  - creation de la page Schedules+css
  - creation de la page classes+css
+ 
 
   3/walid naim
  - creation de la page Sign-up +css

@@ -19,7 +19,8 @@ const formulaire = document.querySelector("#contactForm")
 
 formulaire.addEventListener ("mouseover",() => {
     
-    formulaire.style.backgroundColor = "grey"    
+    formulaire.style.backgroundColor = "grey"  
+    formulaire.style.transition = "background-color 2s ease";  
 })
 
 formulaire.addEventListener ("mouseleave",() => {
@@ -73,7 +74,8 @@ const form = document.getElementById('contactForm');
         console.log('Phone:', phone);
         console.log('Contact Preference:', contactPreference);
         console.log('Message:', message);
-
+        
+        alert('Your application has been submitted successfully!');
         // Réinitialisation du formulaire après soumission
         form.reset();
     });

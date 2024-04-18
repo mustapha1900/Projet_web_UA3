@@ -71,15 +71,21 @@ logo.addEventListener("mouseleave", () => {
     section.addEventListener('mouseenter', () => {
         messageElement.textContent = "Join us for our next event, the Nutrition Seminar, taking place on April 25, 2024. Don't miss this opportunity to learn more about nutrition and discover how it can positively impact your life!'";
         messageElement.classList.add('message');
-        messageElement.style.display = 'block';
-        messageElement.style.fontWeight = 'bold';
-        messageElement.style.backgroundColor = 'grey'
+        
+   
+
+        section.addEventListener('mouseenter', () => {
+            messageElement.style.opacity = '1';
+            section.style.backgroundColor = 'grey'; // Changez ici la couleur d'arrière-plan
+            section.style.transition = 'background-color 0.5s ease-in-out'; // Ajoutez une transition pour l'arrière-plan
+        });
+        
+        section.addEventListener('mouseleave', () => {
+            messageElement.style.opacity = '0';
+            section.style.backgroundColor = '';
+            
+             
+        });     
     });
-    section.addEventListener('mouseleave', () => {
-        messageElement.style.display = 'none';
-    });
-
-
-
 
 })
